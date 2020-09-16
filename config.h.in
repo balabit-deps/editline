@@ -45,8 +45,8 @@
 /* Define to 1 if you have the `curses' library (-lcurses). */
 #undef HAVE_LIBCURSES
 
-/* Define to 1 if you have the `ncurses' library (-lncurses). */
-#undef HAVE_LIBNCURSES
+/* Define to 1 if you have the `ncursesw' library (-lncursesw). */
+#undef HAVE_LIBNCURSESW
 
 /* Define to 1 if you have the `termcap' library (-ltermcap). */
 #undef HAVE_LIBTERMCAP

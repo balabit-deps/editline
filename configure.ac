@@ -46,7 +46,7 @@ AC_PROG_LN_S
 AC_PROG_AWK
 EL_MANTYPE
 
-AC_CHECK_LIB(ncurses, tgetent,,
+AC_CHECK_LIB(ncursesw, tgetent,,
   [AC_CHECK_LIB(curses, tgetent,,
     [AC_CHECK_LIB(termcap, tgetent,,
       [AC_CHECK_LIB(tinfo, tgetent,,
