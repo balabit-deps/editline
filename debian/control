@@ -1,0 +1,13 @@
+Source: libedit 
+Priority: extra
+Maintainer: syslog-ng developers <syslog-ng@lists.balabit.hu>
+Standards-Version: 3.7.2
+Section: libs
+
+Package: libedit
+Architecture: any
+Description: libedit
+
+Package: libedit-dbg
+Architecture: any
+Description: libedit-dbg

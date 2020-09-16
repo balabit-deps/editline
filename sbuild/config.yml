@@ -1,0 +1,7 @@
+name: libedit 
+builder:
+  name: AutotoolsBuilder
+  configure_options: --enable-shared --enable-widec CPPFLAGS='-I@@installdir@@/include/ncursesw -I@@installdir@@/include' LDFLAGS='-L@@installdir@@/lib'
+  flags: "no-make-dist out-of-tree-build-incompatible"
+platforms:
+  - linux-glibc2.11/amd64

@@ -1,0 +1,5 @@
+libedit (0.6.3-1.syslogng70) syslogng70; urgency=medium
+
+  * initial release
+
+ -- Laszlo Budai <laszlo.budai@balabit.com>  Wed, 16 Sep 2020 11:07:44 +0200
