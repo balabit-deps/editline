@@ -1,3 +1,9 @@
+libedit (0.6.3-2.syslogng70) syslogng70; urgency=medium
+
+  * fix tgz2deps
+
+ -- Laszlo Varady <laszlo.varady@balabit.com>  Fri, 05 Mar 2021 10:53:15 +0100
+
 libedit (0.6.3-1.syslogng70) syslogng70; urgency=medium
 
   * initial release
