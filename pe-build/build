@@ -1,0 +1,20 @@
+source="libedit"
+version="0.6.3-pe-1"
+dependencies=(
+  'libncurses' 'libncurses-dev'
+)
+
+bootstrap() {
+ autoreconf -i "${src_dir}"
+}
+
+build() {
+  cd "${build_dir}"
+   ${src_dir}/configure --prefix="${prefix}" --enable-shared --enable-widec CPPFLAGS="$CPPFLAGS -I${prefix}/include/ncursesw/"
+
+  make
+}
+
+install() {
+  make -C "${build_dir}" DESTDIR="${dest_dir}" install
+}
